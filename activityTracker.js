@@ -1,59 +1,59 @@
-// This array stores one activity for each day of the week.
+// This array stores one activity for each day of the week for the last week.
 const myWeek = [
   {
     day: "Monday",
-    activity: "Morning walk",
+    activity: "Morning run",
     category: "physical",
     hoursSpent: 1,
-    enjoyment: 8,
+    enjoyment: 9,
     timeOfDay: "morning"
   },
   {
     day: "Tuesday",
-    activity: "Painting",
+    activity: "Journaling",
     category: "creative",
-    hoursSpent: 1.5,
-    enjoyment: 9,
+    hoursSpent: 0.5,
+    enjoyment: 7,
     timeOfDay: "evening"
   },
   {
     day: "Wednesday",
-    activity: "Lunch with friends",
+    activity: "Lunch and mall with friends",
     category: "social",
-    hoursSpent: 2,
+    hoursSpent: 3,
     enjoyment: 9,
     timeOfDay: "afternoon"
   },
   {
     day: "Thursday",
-    activity: "Gym workout",
+    activity: "Gym and backyard workout",
     category: "physical",
-    hoursSpent: 1,
-    enjoyment: 7,
+    hoursSpent: 2,
+    enjoyment: 9,
     timeOfDay: "evening"
   },
   {
     day: "Friday",
     activity: "Reading",
     category: "creative",
-    hoursSpent: 0.75,
-    enjoyment: 10,
+    hoursSpent: 1,
+    enjoyment: 7,
     timeOfDay: "evening"
   },
   {
     day: "Saturday",
-    activity: "Hiking",
+    activity: "Swimming",
     category: "physical",
-    hoursSpent: 3,
+    hoursSpent: 2,
     enjoyment: 10,
     timeOfDay: "morning"
   },
   {
     day: "Sunday",
-    activity: "Family dinner",
+    activity: "Family dinner and movie",
     category: "social",
     hoursSpent: 2.5,
-    enjoyment: 8,
+    enjoyment: 9,
     timeOfDay: "evening"
   }
 ];
