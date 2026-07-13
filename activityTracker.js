@@ -83,3 +83,10 @@ function favoriteActivities() {
     .map(activity => activity.activity);
 }
 }
+Higher Order Function:
+// Return activity names and enjoyment scores
+const activityDetails = getActivityInfo(
+  act => `${act.activity}: ${act.enjoyment}`
+);
+
+console.log(activityDetails);
